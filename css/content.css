@@ -1,0 +1,538 @@
+body {
+  font-family: "HelveticaNeue", sans-serif;
+  margin: 2vw;
+  background-color: #000000;
+}
+#container {
+  flex-direction: row;
+}
+.header {
+  font-weight: 32;
+}
+.menu {
+  font-family: "satoshi";
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: fixed;
+  right: 2vw;
+}
+
+.list {
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar ul li {
+  display: flex;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: 20;
+  color: black;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ce00ff;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 2vw;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-weight: 32;
+  color: #ce00ff;
+}
+.element_menu a {
+  text-decoration: none;
+  color: #dbff00;
+}
+.education_menu a {
+  text-decoration: none;
+  color: #dbff00;
+}
+.about_menu a {
+  text-decoration: none;
+  color: #dbff00;
+}
+.changing {
+  font-family: "satoshi";
+  position: relative;
+  opacity: 1;
+  animation: changing 5s infinite;
+  padding: 1vw;
+  color: #dbff00;
+}
+@keyframes changing {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.logo {
+  animation: logo 10s infinite;
+}
+@keyframes logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
+.main_line {
+  position: absolute;
+  left: 0;
+  top: 23vw;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 2s;
+}
+.main_line.visible {
+  opacity: 1;
+}
+.h1 {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  top: 10vw;
+  position: relative;
+}
+.line4 {
+  border-bottom: 2px solid #909090;
+  position: relative;
+  top: -0.2vw;
+}
+.line {
+  border-bottom: 2px solid #909090;
+}
+.main_text {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2vw;
+  text-align: left;
+  position: absolute;
+  top: 25vw;
+  left: 2vw;
+  opacity: 1;
+  transition: opacity 15s;
+}
+.main_text.visible {
+  opacity: 0;
+}
+#images_main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
+}
+#line_1 {
+  width: 65%;
+  height: 65%;
+  position: relative;
+  top: 10vw;
+  left: 38vw;
+}
+#spinner {
+  animation: example 4s;
+  animation-duration: 4s;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(0.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.basis {
+  top: 65vw;
+  position: relative;
+  display: grid;
+  grid-template-columns:
+    [one] 12vw [two] 5vw [three] 6vw
+    [four] 8vw [five] 10vw [six] 5vw
+    [seven] 5vw [eight] 5svw [nine] 8vw
+    [ten] 10vw [eleven] 5vw [twelve] 17vw;
+  grid-auto-rows: 3vw;
+}
+.text_about {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.text_describe {
+  color: #ce00ff;
+  font-size: 2.5vw;
+  font-family: "satoshi";
+  text-transform: uppercase;
+  grid-column-start: 11;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  display: flex;
+  align-items: end;
+  flex-direction: column-reverse;
+}
+.main_text_mini {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+.main_text_mini2 {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  display: flex;
+  align-items: start;
+  flex-direction: row-reverse;
+}
+.text_describe3 {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 7;
+}
+.text_describe2 {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 11;
+  grid-column-end: 13;
+  grid-row-start: 6;
+  display: flex;
+}
+.text_about3 {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-column-end: 13;
+  grid-row-start: 4;
+}
+.text_about2 {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+.school_window {
+  width: 22vw;
+  height: 14vw;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+.general_view {
+  width: 23vw;
+  height: 14vw;
+  grid-column-start: 8;
+  grid-row-start: 10;
+}
+.text_under_photo {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 11;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+}
+.text_under_photo1 {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 12;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: start;
+}
+.About_elements {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-row-start: 15;
+  grid-column-start: 8;
+  grid-column-end: 11;
+}
+.About_elements2 {
+  color: #909090;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 16;
+}
+.elements_2vida {
+  width: 24vw;
+  height: 13vw;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 15;
+  display: flex;
+}
+.arrow {
+  width: 4vw;
+  grid-column-start: 6;
+  grid-row-start: 20;
+}
+.rectangle {
+  width: 45vw;
+  height: 7.5vw;
+  border: #909090 solid 0.2vw;
+  background: #000000;
+  grid-row-start: 23;
+  grid-column-start: 8;
+}
+.rectangle1 {
+  width: 40vw;
+  height: 7.5vw;
+  border: #909090 solid 0.2vw;
+  background: #000000;
+  grid-column-start: 9;
+  grid-row-start: 25;
+}
+.rectangle2 {
+  width: 32vw;
+  height: 7.5vw;
+  border: #909090 solid 0.2vw;
+  background: #000000;
+  grid-column-start: 10;
+  grid-row-start: 27;
+}
+.element_menu {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 24;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.element_menu2 {
+  color: #909090;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 25;
+}
+.education_menu {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  grid-row-start: 26;
+  grid-column-start: 10;
+  grid-column-end: 12;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+.education_menu2 {
+  color: #909090;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-row-start: 27;
+  grid-column-start: 11;
+  grid-column-end: 13;
+  display: flex;
+  align-items: start;
+}
+.about_menu {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  grid-row-start: 28;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+.about_menu2 {
+  color: #909090;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  grid-row-start: 29;
+  grid-column-start: 11;
+  grid-column-end: 13;
+  display: flex;
+}
+.text_poster {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 8;
+  grid-column-end: 12;
+  grid-row-start: 33;
+}
+.text_poster2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 32;
+  display: flex;
+  align-items: end;
+}
+.placard {
+  color: #dbff00;
+  grid-row-start: 36;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  grid-column-start: 3;
+}
+.poster_line_faire {
+  width: 24vw;
+  height: 35vw;
+  grid-row-start: 39;
+  grid-column-start: 3;
+}
+.poster_line_faire:hover {
+  display: none;
+}
+.poster_line_faire_color {
+  width: 24vw;
+  height: 35vw;
+  grid-row-start: 39;
+  grid-column-start: 3;
+}
+.poster_line_earth_color {
+  width: 24vw;
+  height: 35vw;
+  grid-row-start: 39;
+  grid-column-start: 8;
+}
+.poster_line_earth:hover {
+  display: none;
+}
+.poster_line_earth {
+  width: 24vw;
+  height: 35vw;
+  grid-row-start: 39;
+  grid-column-start: 8;
+}
+
+.container1 {
+  grid-row-start: 52;
+  grid-template-areas: ". . . . . . ";
+}
+
+#canvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.line2 path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s linear alternate infinite;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.line2 {
+  position: absolute;
+  top: 1vw;
+  left: 30vw;
+}
+
+.line1 {
+  position: absolute;
+  top: 10vw;
+  right: 30vw;
+}
+
+.line1 path {
+  stroke-dasharray: 30;
+  animation: dash1 8s linear alternate infinite;
+}
+
+@keyframes dash1 {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

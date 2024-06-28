@@ -1,0 +1,1657 @@
+@media only screen and (orientation: portrait) and (min-device-width: 320px) and (max-device-width: 568px) {
+  .logo {
+    padding: 1vw;
+  }
+  #main {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .navbar {
+    width: 4vw;
+  }
+  .h1 {
+    font-size: 7vw;
+  }
+  .main_line {
+    display: none;
+  }
+  #spinner {
+    width: 20vw;
+    height: 20vw;
+  }
+  .menu {
+    flex-direction: column;
+    top: 16vw;
+  }
+  #list {
+    width: 25vw;
+    font-size: 3vw;
+    padding: 3vw;
+  }
+  .basis {
+    top: 25vw;
+    display: block;
+  }
+  .text_about {
+    font-size: 5vw;
+  }
+  .text_describe {
+    font-size: 4vw;
+    position: relative;
+    right: 44vw;
+    top: 13vw;
+  }
+  .text_about3 {
+    top: 8vw;
+    position: relative;
+    font-size: 3.5vw;
+  }
+  .text_about2 {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 14vw;
+    left: 22vw;
+  }
+  .text_describe3 {
+    font-size: 3.5vw;
+    top: 14vw;
+    position: relative;
+  }
+  .text_describe2 {
+    font-size: 3.5vw;
+    top: 14vw;
+    position: relative;
+    left: 15vw;
+  }
+  .main_text_mini2 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 65vw;
+    right: 3vw;
+  }
+  .main_text_mini {
+    font-size: 3.5vw;
+    position: relative;
+    top: 65vw;
+    right: 7vw;
+  }
+  .school_window {
+    width: 52vw;
+    height: 44vw;
+  }
+  .general_view {
+    width: 82vw;
+    height: 64vw;
+  }
+  .text_under_photo {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 160vw;
+    right: 10vw;
+  }
+  .text_under_photo1 {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 163vw;
+    right: 10vw;
+  }
+  .About_elements {
+    font-size: 3.5vw;
+  }
+  .About_elements2 {
+    font-size: 3.5vw;
+  }
+  .elements_2vida {
+    width: 52vw;
+    height: 44vw;
+  }
+  .arrow {
+    width: 11vw;
+    position: relative;
+    left: 56vw;
+  }
+  .rectangle {
+    position: relative;
+    left: 34vw;
+    top: 10vw;
+    border: #909090 solid 0.7vw;
+    height: 10vw;
+    width: 60vw;
+  }
+  .rectangle1 {
+    position: relative;
+    left: 34vw;
+    top: 5vw;
+    width: 60vw;
+    border: #909090 solid 0.7vw;
+    height: 10vw;
+  }
+  .rectangle2 {
+    position: relative;
+    left: 34vw;
+    top: 0vw;
+    width: 60vw;
+    border: #909090 solid 0.7vw;
+    height: 10vw;
+  }
+  .element_menu {
+    font-size: 4vw;
+    position: relative;
+    left: 38vw;
+    top: 2vw;
+  }
+  .element_menu2 {
+    font-size: 2vw;
+    position: relative;
+    left: 38vw;
+    top: 2vw;
+  }
+  .education_menu {
+    position: relative;
+    font-size: 4vw;
+    right: 25vw;
+    top: -2.5vw;
+  }
+  .education_menu2 {
+    position: relative;
+    font-size: 2vw;
+    left: 40vw;
+    top: -2vw;
+  }
+  .about_menu {
+    font-size: 4vw;
+    position: relative;
+    right: 37vw;
+    top: -7vw;
+  }
+  .about_menu2 {
+    position: relative;
+    font-size: 2vw;
+    left: 40vw;
+    top: -7vw;
+  }
+  .text_poster {
+    font-size: 3.5vw;
+    position: relative;
+    top: 7vw;
+    left: 20vw;
+  }
+  .text_poster2 {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 310vw;
+    left: 34vw;
+  }
+  .placard {
+    font-size: 4vw;
+    position: relative;
+    top: 15vw;
+  }
+  .poster_line_faire {
+    top: 30vw;
+    position: relative;
+    left: 15vw;
+    scale: 1.5;
+  }
+  .poster_line_faire_color {
+    display: none;
+  }
+  .poster_line_earth {
+    top: 30vw;
+    position: relative;
+    left: 30vw;
+    scale: 1.5;
+  }
+  .poster_line_earth_color {
+    display: none;
+  }
+  /* ELEMENTAL.HTML  */
+  #elemental_main {
+    display: block;
+    overflow-x: hidden;
+  }
+  .Fire {
+    font-size: 6vw;
+    top: 5vw;
+    position: relative;
+  }
+
+  .text_power {
+    font-size: 3.5vw;
+    position: relative;
+    top: 9vw;
+  }
+  .fiery_heart {
+    font-size: 3.5vw;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+  }
+  .crossroads {
+    font-size: 3.5vw;
+    position: relative;
+    top: 10vw;
+    left: 5vw;
+  }
+  .foto_redLava {
+    width: 52vw;
+    height: 38vw;
+    top: 12vw;
+    position: relative;
+  }
+  .foto_redLava_mini {
+    width: 24vw;
+    height: 18vw;
+    left: 5vw;
+    position: relative;
+  }
+  .icon_umbrella {
+    width: 10vw;
+    left: 7vw;
+    position: relative;
+  }
+  .element_lava {
+    font-size: 3.5vw;
+    top: 8vw;
+    position: relative;
+    left: 5vw;
+  }
+
+  .element_lava2 {
+    font-size: 3.5vw;
+    top: 6vw;
+    position: relative;
+    left: 16vw;
+  }
+  .icon_tornado {
+    grid-column-start: 9;
+  }
+  .foto_waterSlide {
+    width: 36vw;
+    height: 19vw;
+    position: relative;
+    top: 3vw;
+  }
+  .foto_storm {
+    width: 46vw;
+    height: 39vw;
+    position: relative;
+    top: 33vw;
+    left: 3vw;
+  }
+  .icon_drops3 {
+    width: 15vw;
+    height: 15vw;
+  }
+  .element_water {
+    font-size: 6vw;
+    position: relative;
+    top: 5vw;
+  }
+  .element_Give {
+    font-size: 3.5vw;
+    top: 8vw;
+    position: relative;
+  }
+
+  .water_balance {
+    font-size: 3.5vw;
+    top: 8vw;
+    position: relative;
+  }
+  .icon_drop {
+    width: 15vw;
+    height: 15vw;
+    left: 55vw;
+    position: relative;
+  }
+  .element_storm {
+    font-size: 3.5vw;
+    top: 1vw;
+    left: 16vw;
+    position: relative;
+  }
+  .element_pool {
+    font-size: 3.5vw;
+    top: 1vw;
+    left: 16vw;
+    position: relative;
+  }
+  .element_training {
+    font-size: 3.5vw;
+  }
+  .element_training2 {
+    font-size: 3.5vw;
+    position: relative;
+    left: 12vw;
+  }
+  .icon_sunny {
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    top: 175vw;
+    left: 45vw;
+  }
+  .element_earth {
+    width: 38vw;
+    height: 30vw;
+    position: relative;
+    left: 56vw;
+  }
+  .element_earth_text {
+    font-size: 6vw;
+    position: relative;
+    top: 10vw;
+  }
+  .foto_big_storm {
+    position: relative;
+    left: 1vw;
+    width: 15vw;
+    height: 15vw;
+  }
+  .element_choose {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 217vw;
+  }
+  .element_choose2 {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 220vw;
+  }
+  .foto_swamp {
+    width: 53vw;
+    height: 43vw;
+    position: relative;
+    top: 10vw;
+  }
+  .element_Earthquake {
+    font-size: 3.5vw;
+    position: relative;
+    top: 6vw;
+    left: 15vw;
+  }
+  .element_classroom {
+    font-size: 3.5vw;
+    position: relative;
+    top: 6vw;
+    left: 29vw;
+  }
+
+  .element_disciplines {
+    font-size: 3.5vw;
+    position: relative;
+    top: 8vw;
+  }
+  .element_disciplines2 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 8vw;
+  }
+  .element_wind {
+    font-size: 6vw;
+  }
+  .Free_visit {
+    font-size: 3.5vw;
+    top: 3vw;
+    position: relative;
+  }
+
+  .Free_visit2 {
+    font-size: 3.5vw;
+    top: 3vw;
+    position: relative;
+    left: 15vw;
+  }
+  .element_tornado {
+    width: 47vw;
+    height: 40vw;
+    position: relative;
+    top: 3vw;
+  }
+  .Masters {
+    font-size: 3.5vw;
+    position: relative;
+    left: 18vw;
+  }
+  .Masters2 {
+    font-size: 3.5vw;
+  }
+  .feel_power {
+    font-size: 3.5vw;
+    position: relative;
+    top: 3vw;
+    left: 15vw;
+  }
+  .element_lightning {
+    width: 43vw;
+    height: 47vw;
+  }
+  .element_lightning2 {
+    font-size: 3.5vw;
+    position: relative;
+    left: 20vw;
+  }
+  .text_lightning {
+    font-size: 3.5vw;
+    position: relative;
+    top: 2vw;
+  }
+  .icon_cloud_wind {
+    position: relative;
+    left: 25vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  .icon_snow {
+    position: relative;
+    left: 35vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  /* EDUCATION.HTML */
+  #education_main {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .education_main_text {
+    font-size: 6vw;
+    position: relative;
+    top: 5vw;
+  }
+
+  .education_knowledge {
+    font-size: 3.5vw;
+    position: relative;
+    top: 8vw;
+    left: 15vw;
+  }
+  .education_knowledge1 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 10vw;
+    left: 1vw;
+  }
+  .education_knowledge2 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 6.5vw;
+    left: 45vw;
+  }
+  .education_practic {
+    font-size: 3.5vw;
+    position: relative;
+    top: 2vw;
+    left: 70vw;
+  }
+  .education_works {
+    font-size: 3.5vw;
+    position: relative;
+    top: 2vw;
+  }
+  .education_magic {
+    font-size: 3.5vw;
+    position: relative;
+    top: 2vw;
+    left: 75vw;
+  }
+  .educational_work_stand {
+    width: 44vw;
+    height: 36vw;
+  }
+  .educational_work_stand_color {
+    display: none;
+  }
+
+  .education_day {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 50vw;
+    left: 50vw;
+  }
+  .open_doors {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 54vw;
+    left: 55vw;
+  }
+  .open_doors_day {
+    font-size: 3.5vw;
+    position: relative;
+  }
+  .education_poster {
+    position: absolute;
+    top: 64.5vw;
+    left: 50vw;
+  }
+  .education_poster_color {
+    display: none;
+  }
+  .text_site {
+    font-size: 3.5vw;
+    position: relative;
+  }
+  .text_site_program {
+    font-size: 3.5vw;
+    position: relative;
+    left: 10vw;
+  }
+  .education_under_foto {
+    font-size: 4.5vw;
+    position: relative;
+    left: 40vw;
+    top: 13vw;
+  }
+  .education_under_foto2 {
+    font-size: 4.5vw;
+    position: relative;
+    left: 40vw;
+    top: 13vw;
+  }
+
+  .education_lessons {
+    font-size: 3.5vw;
+    position: relative;
+    top: 50vw;
+  }
+
+  .education_tasks {
+    font-size: 3.5vw;
+    position: relative;
+    top: 50vw;
+  }
+  .know_magic {
+    font-size: 3.5vw;
+    position: relative;
+    top: 50vw;
+    left: 15vw;
+  }
+
+  .education_books {
+    width: 56vw;
+    height: 42vw;
+    position: absolute;
+    top: 125vw;
+    left: 42vw;
+  }
+  .education_books_color {
+    display: none;
+  }
+  .date_competition {
+    font-size: 3.5vw;
+    position: relative;
+  }
+
+  .education_competition {
+    font-size: 3vw;
+    position: relative;
+  }
+  .education_brochures {
+    position: absolute;
+    top: 115vw;
+  }
+  .education_brochures_color {
+    display: none;
+  }
+  .education_more {
+    font-size: 3.5vw;
+    position: relative;
+    top: 55vw;
+    left: 50vw;
+  }
+  .education_events {
+    font-size: 3.5vw;
+    position: relative;
+    top: 55vw;
+    left: 45vw;
+  }
+  .knowledge_day1 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 50vw;
+  }
+
+  .education_together1 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 56vw;
+    left: 15vw;
+  }
+  .education_together {
+    font-size: 3.5vw;
+    position: relative;
+    top: 56vw;
+  }
+  .day_together {
+    font-size: 3.5vw;
+    position: relative;
+    top: 30vw;
+  }
+  .amazing_element {
+    font-size: 3.5vw;
+    position: relative;
+    top: 55vw;
+    left: 30vw;
+  }
+  .manage_energy {
+    font-size: 3.5vw;
+    position: relative;
+    top: 55vw;
+    left: 40vw;
+  }
+  .everyday_life {
+    font-size: 3.5vw;
+    position: relative;
+    top: 51.5vw;
+    left: 24vw;
+  }
+  .shopper_bag {
+    width: 34vw;
+    height: 41vw;
+    position: relative;
+    top: 65vw;
+  }
+  .T-shirt {
+    width: 34vw;
+    height: 41vw;
+    position: relative;
+    top: 22vw;
+  }
+  .Books_first {
+    width: 50vw;
+    height: 35vw;
+    position: relative;
+    top: 65vw;
+  }
+  .gift {
+    width: 50vw;
+    height: 35vw;
+    position: relative;
+    top: 55vw;
+  }
+  .buy {
+    font-size: 4vw;
+    position: absolute;
+    top: 250vw;
+    left: 50vw;
+  }
+  .merch_schools {
+    font-size: 4vw;
+    position: absolute;
+    top: 255vw;
+    left: 50vw;
+  }
+  .shopper_bag_text {
+    font-size: 2vw;
+    position: relative;
+    top: 1vw;
+  }
+  .Books_first_text {
+    font-size: 2vw;
+    position: relative;
+    top: 58vw;
+  }
+
+  /* ABOUT.HTML */
+  #main_about {
+    display: block;
+    overflow-x: hidden;
+  }
+  .about_logo {
+    margin: 1vw;
+  }
+  .about_title {
+    position: relative;
+    top: 5vw;
+  }
+  .about_area {
+    font-size: 3.5vw;
+    position: relative;
+    top: 4.5vw;
+  }
+  .about_building {
+    font-size: 3.5vw;
+    position: relative;
+    top: 1vw;
+    left: 45vw;
+  }
+  .about_class {
+    font-size: 3.5vw;
+    position: relative;
+    top: 2vw;
+    left: 31vw;
+  }
+
+  .about_title_class {
+    font-size: 3.5vw;
+    position: relative;
+    top: 5vw;
+  }
+  .about_title_class2 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 5vw;
+  }
+
+  .about_title_class3 {
+    font-size: 3.5vw;
+    position: relative;
+    top: 6vw;
+    right: 3vw;
+  }
+  .about_earth {
+    font-size: 6vw;
+    position: relative;
+    top: 10vw;
+  }
+  .ground_floor {
+    font-size: 3vw;
+    position: relative;
+    top: 10vw;
+  }
+  .earth_class {
+    width: 49vw;
+    height: 41vw;
+    position: relative;
+    top: 7vw;
+  }
+  .earth_class_text {
+    font-size: 3.5vw;
+    position: relative;
+    top: 5vw;
+  }
+  .about_earthquake {
+    font-size: 3.5vw;
+    position: relative;
+    top: 6vw;
+    left: 33vw;
+  }
+  .about_swamp {
+    font-size: 3.5vw;
+    position: relative;
+    top: 6vw;
+    left: 50vw;
+  }
+  .about_stone {
+    width: 33vw;
+    height: 26vw;
+    position: relative;
+    top: 5vw;
+    left: 50vw;
+  }
+  .about_stone_text {
+    font-size: 3.5vw;
+    position: relative;
+    top: 4vw;
+    left: 50vw;
+  }
+  .about_reception {
+    font-size: 4vw;
+    position: absolute;
+    top: 140vw;
+  }
+  .about_luminaire {
+    font-size: 3.5vw;
+    position: absolute;
+    top: 145vw;
+  }
+  .reception_foto {
+    width: 33vw;
+    height: 24vw;
+    position: absolute;
+    top: 170vw;
+    left: 40vw;
+  }
+
+  .about_lamp {
+    width: 32vw;
+    height: 24vw;
+    position: absolute;
+    top: 160vw;
+  }
+  .recreation_area_foto {
+    width: 40vw;
+    height: 46vw;
+    position: relative;
+    left: 15vw;
+    top: 10vw;
+  }
+
+  .about_water {
+    font-size: 6vw;
+    position: relative;
+    top: 14vw;
+  }
+  .second_floor {
+    font-size: 3vw;
+    position: relative;
+    top: 14vw;
+  }
+  .water_slide {
+    width: 35vw;
+    height: 25vw;
+    position: relative;
+    top: 18vw;
+  }
+  .water_slide_text {
+    font-size: 3.5vw;
+    position: relative;
+    top: 18vw;
+  }
+  .about_water_class {
+    width: 46vw;
+    height: 27vw;
+    position: relative;
+    top: 8vw;
+    left: 40vw;
+  }
+
+  .thunderclouds {
+    font-size: 3.5vw;
+    position: relative;
+    top: 8vw;
+    left: 43vw;
+  }
+
+  .about_slide {
+    font-size: 3.5vw;
+    position: relative;
+  }
+  .evaporation {
+    font-size: 3.5vw;
+    position: relative;
+    left: 10vw;
+  }
+
+  .Constant_rain {
+    font-size: 3.5vw;
+    position: relative;
+    left: 5vw;
+    top: 1vw;
+  }
+  .about_fire {
+    font-size: 6vw;
+    position: relative;
+    top: 5vw;
+  }
+  .third_floor {
+    font-size: 3vw;
+    position: relative;
+    top: 5vw;
+  }
+  .about_cone {
+    width: 27vw;
+    height: 25vw;
+    top: 7vw;
+    position: relative;
+  }
+  .about_lava {
+    width: 55vw;
+    height: 32vw;
+    position: relative;
+    left: 7vw;
+  }
+  .target {
+    font-size: 3.5vw;
+    position: relative;
+    top: 7vw;
+  }
+  .temperature {
+    font-size: 3.5vw;
+    position: relative;
+    right: 5vw;
+  }
+  .lava_text {
+    font-size: 3.5vw;
+    position: relative;
+  }
+  .about_library {
+    font-size: 4vw;
+    position: relative;
+  }
+
+  .about_library_text {
+    font-size: 3.5vw;
+    position: relative;
+    left: 42vw;
+  }
+  .about_library_text2 {
+    font-size: 3.5vw;
+    position: relative;
+    left: 25vw;
+  }
+  .shelves_library {
+    width: 34vw;
+    height: 35vw;
+    position: relative;
+    top: 3vw;
+  }
+  .about_shelves {
+    width: 28vw;
+    height: 31vw;
+    position: relative;
+    top: 3vw;
+  }
+  .chairs_library {
+    width: 38vw;
+    height: 27vw;
+    position: relative;
+    left: 15vw;
+    top: -20vw;
+  }
+  .about_classroom {
+    font-size: 4vw;
+    position: absolute;
+    top: 405vw;
+  }
+  .about_classroom_text2 {
+    font-size: 3.5vw;
+    position: relative;
+    right: 55vw;
+  }
+  .about_classroom_text {
+    font-size: 3.5vw;
+    position: relative;
+    right: 45vw;
+  }
+  .classroom_chairs {
+    width: 31vw;
+    height: 28vw;
+  }
+  .about_table4 {
+    width: 35vw;
+    height: 40vw;
+  }
+  .about_chairs_angle {
+    width: 36vw;
+    height: 31vw;
+    position: absolute;
+    top: 459vw;
+    left: 20vw;
+  }
+
+  .about_wind {
+    font-size: 6vw;
+    position: relative;
+    top: 13vw;
+  }
+  .about_wind2 {
+    font-size: 3vw;
+    position: relative;
+    top: 13vw;
+  }
+  .about_tornado_foto {
+    width: 47vw;
+    height: 30vw;
+    position: relative;
+    top: 15vw;
+  }
+  .about_class_storm {
+    width: 39vw;
+    height: 35vw;
+    position: relative;
+    top: 15vw;
+  }
+  .about_storm {
+    width: 33vw;
+    height: 26vw;
+    position: relative;
+    left: 25vw;
+  }
+  .tornado1 {
+    font-size: 3.5vw;
+    position: relative;
+  }
+  .thunder {
+    font-size: 3.5vw;
+    position: relative;
+    left: 18vw;
+  }
+  .storm1 {
+    font-size: 3.5vw;
+    position: relative;
+    left: 18vw;
+  }
+  .dust_storms {
+    font-size: 3.5vw;
+    position: relative;
+  }
+}
+/* tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main_line.visible {
+    overflow-x: hidden;
+    height: 120vw;
+    top: 30vw;
+  }
+  .line1 {
+    right: 1vw;
+  }
+  .line2 {
+    left: -30vw;
+  }
+  #images_main {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    right: 1vw;
+    overflow: hidden;
+  }
+  .basis {
+    top: 85vw;
+  }
+  .line {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+  #line {
+    top: 72vw;
+    position: relative;
+  }
+  .h1 {
+    font-size: 8vw;
+  }
+  .text_about {
+    font-size: 3vw;
+    grid-column-end: 13;
+  }
+  .text_about3 {
+    font-size: 2vw;
+  }
+  .text_about2 {
+    font-size: 2vw;
+    grid-column-start: 8;
+    grid-column-end: 11;
+  }
+  .text_describe {
+    font-size: 3vw;
+    grid-row-start: 8;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    flex-direction: row;
+  }
+  .text_describe2 {
+    font-size: 2vw;
+    grid-row-start: 10;
+    grid-column-start: 8;
+    grid-column-end: 12;
+    align-items: end;
+    flex-direction: row-reverse;
+  }
+  .text_describe3 {
+    font-size: 2vw;
+    grid-row-start: 11;
+    grid-column-start: 9;
+  }
+  .main_text_mini {
+    font-size: 2vw;
+  }
+  .main_text_mini2 {
+    font-size: 2vw;
+    grid-column-end: 5;
+  }
+  .school_window {
+    grid-column-start: 1;
+    width: 32vw;
+    height: 24vw;
+    grid-row-start: 6;
+  }
+  .text_under_photo {
+    font-size: 2vw;
+    grid-row-start: 15;
+    grid-column-end: 5;
+    grid-column-start: 1;
+  }
+
+  .text_under_photo1 {
+    font-size: 2vw;
+    grid-row-start: 16;
+    grid-column-end: 5;
+    grid-column-start: 1;
+  }
+  .elements_2vida {
+    grid-row-start: 17;
+    grid-column-start: 1;
+    width: 35vw;
+    height: 24vw;
+  }
+  .general_view {
+    width: 32vw;
+    height: 17vw;
+    grid-row-start: 9;
+    grid-column-start: 4;
+  }
+  .About_elements {
+    font-size: 2vw;
+    grid-row-start: 16;
+    grid-column-start: 10;
+    grid-column-end: 13;
+  }
+  .About_elements2 {
+    font-size: 2vw;
+    grid-row-start: 18;
+    grid-column-start: 9;
+    grid-column-end: 13;
+  }
+  .arrow {
+    grid-column-start: 6;
+    width: 7vw;
+  }
+  .text_poster2 {
+    font-size: 2vw;
+  }
+  .text_poster {
+    font-size: 2vw;
+    grid-column-end: 13;
+  }
+  .placard {
+    font-size: 3vw;
+  }
+  /* ELEMENTAL.HTML*/
+  #elemental_main {
+    overflow-x: hidden;
+  }
+  .Fire {
+    font-size: 6vw;
+  }
+  .text_power {
+    font-size: 2vw;
+    grid-row-start: 7;
+  }
+  .fiery_heart {
+    font-size: 2vw;
+    grid-row-start: 8;
+  }
+  .crossroads {
+    font-size: 2vw;
+  }
+  .foto_redLava_mini {
+    width: 18vw;
+    height: 10vw;
+    grid-row-start: 12;
+  }
+  .element_lava {
+    font-size: 2vw;
+  }
+  .element_lava2 {
+    font-size: 2vw;
+  }
+  .foto_waterSlide {
+    width: 18vw;
+    height: 12vw;
+  }
+  .element_water {
+    font-size: 6vw;
+  }
+  .element_Give {
+    font-size: 2vw;
+  }
+
+  .water_balance {
+    font-size: 2vw;
+    grid-row-start: 27;
+  }
+  .foto_storm {
+    width: 37vw;
+    height: 28vw;
+  }
+  .element_storm {
+    font-size: 2vw;
+    grid-row-start: 32;
+  }
+  .element_pool {
+    font-size: 2vw;
+    grid-row-start: 33;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+  }
+  .icon_cloud_rain {
+    grid-column-start: 2;
+    grid-row-start: 31;
+  }
+  .element_training {
+    font-size: 2vw;
+    grid-row-start: 29;
+  }
+  .element_training2 {
+    font-size: 2vw;
+    grid-row-start: 31;
+  }
+  .element_earth {
+    width: 28vw;
+    height: 20vw;
+  }
+  .element_earth_text {
+    font-size: 6vw;
+  }
+  .element_choose {
+    font-size: 2vw;
+  }
+  .element_choose2 {
+    font-size: 2vw;
+    grid-column-end: 13;
+  }
+  .foto_swamp {
+    width: 43vw;
+    height: 31vw;
+  }
+  .element_Earthquake {
+    font-size: 2vw;
+    grid-row-start: 54;
+  }
+  .element_classroom {
+    font-size: 2vw;
+    grid-row-start: 55;
+    grid-column-end: 13;
+  }
+  .element_disciplines {
+    font-size: 2vw;
+    grid-column-start: 10;
+    grid-row-start: 49;
+  }
+  .element_disciplines2 {
+    font-size: 2vw;
+    grid-column-end: 13;
+  }
+  .element_wind {
+    font-size: 6vw;
+  }
+  .Free_visit {
+    font-size: 2vw;
+    grid-row-start: 62;
+  }
+  .Free_visit2 {
+    font-size: 2vw;
+    grid-row-start: 63;
+  }
+  .element_tornado {
+    width: 27vw;
+    height: 20vw;
+  }
+  .Masters {
+    font-size: 2vw;
+    grid-row-start: 68;
+  }
+  .Masters2 {
+    font-size: 2vw;
+    grid-row-start: 69;
+  }
+  .feel_power {
+    font-size: 2vw;
+    grid-row-start: 71;
+  }
+  .element_lightning2 {
+    font-size: 2vw;
+  }
+  .text_lightning {
+    font-size: 2vw;
+  }
+
+  /* EDUCATION.HTML*/
+  .education_main_text {
+    font-size: 6vw;
+    grid-column-end: 13;
+  }
+  .education_knowledge {
+    font-size: 2vw;
+    grid-row-start: 8;
+  }
+  .education_knowledge1 {
+    font-size: 2vw;
+    grid-row-start: 9;
+    align-items: end;
+  }
+  .education_knowledge2 {
+    font-size: 2vw;
+    grid-row-start: 9;
+    align-items: end;
+  }
+  .education_practic {
+    font-size: 2vw;
+    grid-column-start: 11;
+  }
+  .education_works {
+    font-size: 2vw;
+    grid-column-start: 12;
+  }
+  .education_magic {
+    font-size: 2vw;
+    grid-column-start: 11;
+  }
+  .educational_work_stand {
+    width: 34vw;
+    height: 22vw;
+    grid-column-start: 9;
+  }
+  .educational_work_stand_color {
+    width: 34vw;
+    height: 22vw;
+    grid-column-start: 9;
+  }
+
+  .education_day {
+    font-size: 2vw;
+  }
+  .open_doors {
+    font-size: 2vw;
+  }
+  .open_doors_day {
+    font-size: 2vw;
+  }
+  .text_site {
+    font-size: 2vw;
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 13;
+  }
+  .text_site_program {
+    font-size: 2vw;
+    grid-row-start: 17;
+    grid-column-start: 4;
+    grid-column-end: 11;
+    align-items: center;
+    display: flex;
+  }
+  .education_under_foto {
+    font-size: 3vw;
+    grid-row-start: 18;
+    grid-column-end: 13;
+  }
+  .education_under_foto2 {
+    font-size: 3vw;
+    grid-row-start: 19;
+  }
+  .education_lessons {
+    font-size: 2vw;
+  }
+  .education_tasks {
+    font-size: 2vw;
+    grid-row-start: 22;
+    align-items: center;
+    display: flex;
+  }
+  .know_magic {
+    font-size: 2vw;
+    grid-row-start: 24;
+  }
+  .education_brochures {
+    grid-column-start: 10;
+    width: 28vw;
+    height: 20vw;
+  }
+  .education_brochures_color {
+    grid-column-start: 10;
+    width: 28vw;
+    height: 20vw;
+  }
+  .date_competition {
+    font-size: 2vw;
+  }
+  .education_competition {
+    font-size: 3vw;
+  }
+  .education_more {
+    font-size: 2vw;
+  }
+  .education_events {
+    font-size: 2vw;
+  }
+  .education_together {
+    font-size: 2vw;
+  }
+  .knowledge_day1 {
+    font-size: 3vw;
+    grid-column-start: 9;
+  }
+  .education_together1 {
+    font-size: 2vw;
+  }
+  .day_together {
+    font-size: 2vw;
+  }
+  .amazing_element {
+    font-size: 2vw;
+  }
+  .manage_energy {
+    font-size: 2vw;
+    grid-row-start: 41;
+  }
+  .everyday_life {
+    font-size: 2vw;
+    grid-row-start: 43;
+  }
+  .shopper_bag {
+    width: 34vw;
+    height: 41vw;
+  }
+  .Books_first {
+    width: 42vw;
+    height: 30vw;
+  }
+  .buy {
+    font-size: 3vw;
+  }
+  .merch_schools {
+    font-size: 3vw;
+  }
+  .shopper_bag_text {
+    grid-row-start: 61;
+    font-size: 2vw;
+  }
+  .Books_first_text {
+    font-size: 2vw;
+    grid-row-start: 59;
+  }
+  /* ABOUT.HTML*/
+  .about_title {
+    font-size: 6vw;
+    grid-column-end: 13;
+  }
+  .about_area {
+    font-size: 2vw;
+    grid-row-start: 9;
+  }
+  .about_building {
+    font-size: 2vw;
+    grid-row-start: 9;
+    grid-column-start: 4;
+  }
+  .about_class {
+    font-size: 2vw;
+    grid-row-start: 9;
+    grid-column-start: 6;
+  }
+  .about_title_class {
+    font-size: 2vw;
+    grid-row-start: 11;
+    grid-column-end: 13;
+  }
+  .about_title_class2 {
+    font-size: 2vw;
+    grid-row-start: 12;
+  }
+  .about_title_class3 {
+    font-size: 2vw;
+    grid-row-start: 15;
+    grid-column-end: 5;
+  }
+  .about_earth {
+    font-size: 6vw;
+  }
+  .ground_floor {
+    font-size: 2vw;
+    grid-row-start: 14;
+    grid-column-end: 13;
+  }
+  .earth_class {
+    width: 39vw;
+    height: 31vw;
+    grid-row-start: 16;
+  }
+  .earth_class_text {
+    grid-row-start: 26;
+  }
+  .about_earthquake {
+    font-size: 2vw;
+    grid-column-start: 9;
+  }
+  .about_swamp {
+    font-size: 2vw;
+    grid-column-start: 10;
+  }
+  .about_stone {
+    grid-column-start: 9;
+  }
+  .about_stone_text {
+    font-size: 2vw;
+    grid-column-start: 9;
+  }
+  .about_reception {
+    font-size: 4vw;
+    grid-row-start: 27;
+    grid-column-start: 2;
+    grid-column-end: 6;
+  }
+  .about_luminaire {
+    font-size: 2vw;
+    grid-row-start: 28;
+  }
+  .reception_foto {
+    width: 28vw;
+    height: 18vw;
+    grid-row-start: 30;
+  }
+  .about_water {
+    font-size: 6vw;
+  }
+  .second_floor {
+    font-size: 2vw;
+    grid-row-start: 37;
+    grid-column-start: 9;
+  }
+  .water_slide {
+    width: 35vw;
+    height: 25vw;
+  }
+
+  .water_slide_text {
+    font-size: 2vw;
+  }
+  .about_water_class {
+    width: 40vw;
+    height: 21vw;
+  }
+  .thunderclouds {
+    font-size: 2vw;
+    grid-column-end: 7;
+  }
+  .about_slide {
+    font-size: 2vw;
+    grid-row-start: 50;
+  }
+  .evaporation {
+    font-size: 2vw;
+    grid-row-start: 51;
+  }
+  .Constant_rain {
+    font-size: 2vw;
+    grid-row-start: 52;
+    align-items: end;
+  }
+  .about_fire {
+    font-size: 6vw;
+  }
+  .third_floor {
+    font-size: 2vw;
+    grid-row-start: 56;
+  }
+  .target {
+    font-size: 2vw;
+  }
+  .temperature {
+    font-size: 2vw;
+  }
+  .lava_text {
+    font-size: 2vw;
+    grid-row-start: 67;
+  }
+  .about_lava {
+    width: 47vw;
+    height: 25vw;
+  }
+  .about_library {
+    font-size: 3vw;
+  }
+  .about_library_text {
+    font-size: 2vw;
+  }
+  .about_library_text2 {
+    font-size: 2vw;
+    grid-row-start: 75;
+  }
+
+  .chairs_library {
+    width: 32vw;
+    height: 23vw;
+  }
+
+  .about_classroom {
+    font-size: 3vw;
+  }
+  .about_classroom_text {
+    font-size: 2vw;
+    grid-column-end: 4;
+  }
+  .about_classroom_text2 {
+    font-size: 2vw;
+    grid-column-end: 5;
+    grid-row-start: 89;
+    align-items: center;
+  }
+  .classroom_chairs {
+    grid-column-start: 6;
+  }
+  .about_table4 {
+    grid-column-start: 10;
+  }
+  .about_chairs_angle {
+    grid-column-start: 7;
+  }
+  .about_wind {
+    font-size: 6vw;
+  }
+  .about_wind2 {
+    font-size: 2vw;
+    grid-row-start: 98;
+  }
+
+  .about_tornado_foto {
+    width: 47vw;
+    height: 30vw;
+    grid-row-start: 99;
+  }
+  .about_storm {
+    width: 33vw;
+    height: 26vw;
+  }
+  .tornado1 {
+    font-size: 2vw;
+  }
+  .thunder {
+    font-size: 2vw;
+    grid-row-start: 109;
+  }
+  .storm1 {
+    font-size: 2vw;
+    grid-row-start: 112;
+  }
+  .dust_storms {
+    font-size: 2vw;
+  }
+}

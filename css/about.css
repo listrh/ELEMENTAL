@@ -1,0 +1,520 @@
+body {
+  font-family: "HelveticaNeue", sans-serif;
+  margin: 2vw;
+  background-color: #000000;
+}
+.about_logo {
+  color: #dbff00;
+  font-family: "satoshi";
+  padding: 1vw;
+}
+#main_about {
+  display: grid;
+  grid-template-columns:
+    [one] 12vw [two] 5vw [three] 6vw
+    [four] 8vw [five] 10vw [six] 5vw
+    [seven] 5vw [eight] 5svw [nine] 8vw
+    [ten] 10vw [eleven] 5vw [twelve] 17vw;
+  grid-auto-rows: 3vw;
+}
+.about_title {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 5;
+}
+.about_area {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 7;
+  display: flex;
+  align-items: end;
+}
+.about_building {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 7;
+  grid-column-start: 3;
+  display: flex;
+  align-items: end;
+}
+.about_class {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 7;
+  grid-column-start: 5;
+  display: flex;
+  align-items: end;
+}
+.about_title_class {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  display: flex;
+  align-items: end;
+}
+.about_title_class2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 9;
+  display: flex;
+  align-items: start;
+}
+.about_title_class3 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 11;
+  display: flex;
+  align-items: end;
+  flex-direction: row-reverse;
+}
+.about_earth {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  text-transform: uppercase;
+  grid-row-start: 12;
+  grid-column-start: 9;
+}
+.ground_floor {
+  color: #ce00ff;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 13;
+  display: flex;
+  align-items: center;
+}
+.earth_class {
+  width: 29vw;
+  height: 21vw;
+  grid-row-start: 14;
+  grid-column-end: 6;
+  grid-column-start: 2;
+  display: flex;
+}
+.earth_class_text {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 21;
+}
+.about_earthquake {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 8;
+  grid-row-start: 17;
+  align-items: end;
+  display: flex;
+}
+.about_swamp {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 18;
+}
+.about_stone {
+  width: 23vw;
+  height: 16vw;
+  grid-column-start: 8;
+  grid-row-start: 20;
+}
+.about_stone_text {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 25;
+  grid-column-start: 8;
+  align-items: center;
+  display: flex;
+}
+.about_reception {
+  color: #ce00ff;
+  font-family: "satoshi";
+  font-size: 3vw;
+  text-transform: uppercase;
+  grid-row-start: 26;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.about_luminaire {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 27;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.reception_foto {
+  width: 23vw;
+  height: 14vw;
+  grid-row-start: 29;
+}
+.recreation_area_foto {
+  width: 20vw;
+  height: 26vw;
+  grid-row-start: 30;
+  grid-column-start: 2;
+}
+.about_lamp {
+  width: 22vw;
+  height: 12vw;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 31;
+  display: flex;
+  align-items: center;
+}
+.about_water {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  text-transform: uppercase;
+  grid-row-start: 35;
+  grid-column-start: 9;
+}
+.second_floor {
+  color: #ce00ff;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  grid-row-start: 36;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  display: flex;
+  align-items: center;
+}
+.water_slide {
+  width: 25vw;
+  height: 15vw;
+  grid-row-start: 41;
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+.water_slide_text {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 7;
+  grid-row-start: 41;
+}
+.about_water_class {
+  width: 36vw;
+  height: 17vw;
+  grid-row-start: 45;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.thunderclouds {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 44;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  display: flex;
+  align-items: center;
+}
+.about_slide {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 46;
+  display: flex;
+  align-items: center;
+}
+.evaporation {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 8;
+  grid-row-start: 47;
+}
+.Constant_rain {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 51;
+  grid-column-end: 52;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  display: flex;
+  align-items: start;
+}
+.about_fire {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  text-transform: uppercase;
+  grid-row-start: 54;
+  grid-column-start: 4;
+}
+.third_floor {
+  color: #ce00ff;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  grid-row-start: 55;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  display: flex;
+  align-items: center;
+}
+.about_cone {
+  width: 17vw;
+  height: 15vw;
+  grid-row-start: 56;
+  grid-column-start: 10;
+}
+.about_lava {
+  width: 45vw;
+  height: 22vw;
+  grid-row-start: 59;
+}
+.target {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 61;
+  grid-column-start: 10;
+  display: flex;
+  align-items: end;
+}
+.temperature {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 63;
+  grid-column-start: 8;
+  grid-column-end: 10;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.lava_text {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 66;
+  grid-column-start: 6;
+  display: flex;
+  align-items: end;
+}
+.about_library {
+  color: #ce00ff;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  grid-row-start: 70;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.about_library_text {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 72;
+  grid-column-start: 10;
+  grid-column-end: 13;
+}
+.about_library_text2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 74;
+  grid-column-start: 9;
+  grid-column-end: 13;
+  display: flex;
+  align-items: end;
+}
+.shelves_library {
+  width: 24vw;
+  height: 25vw;
+  grid-row-start: 73;
+  grid-column-end: 2;
+}
+.chairs_library {
+  width: 28vw;
+  height: 17vw;
+  grid-row-start: 75;
+  grid-column-start: 2;
+}
+.about_shelves {
+  width: 18vw;
+  height: 21vw;
+  grid-row-start: 73;
+  grid-column-start: 5;
+}
+.about_classroom {
+  color: #ce00ff;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  grid-row-start: 84;
+  grid-column-start: 6;
+  grid-column-end: 13;
+}
+.about_classroom_text {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row-start: 87;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.about_classroom_text2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 88;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.classroom_chairs {
+  width: 21vw;
+  height: 18vw;
+  grid-row-start: 88;
+  grid-column-start: 5;
+}
+.about_chairs_angle {
+  width: 26vw;
+  height: 21vw;
+  grid-row-start: 89;
+  grid-column-start: 6;
+}
+.about_table4 {
+  width: 25vw;
+  height: 30vw;
+  grid-row-start: 88;
+  grid-column-start: 9;
+}
+.about_wind {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  text-transform: uppercase;
+  grid-row-start: 96;
+  grid-column-start: 2;
+}
+.about_wind2 {
+  color: #ce00ff;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  grid-row-start: 97;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  display: flex;
+  align-items: center;
+}
+.about_tornado_foto {
+  width: 37vw;
+  height: 20vw;
+  grid-row-start: 101;
+}
+.about_class_storm {
+  width: 29vw;
+  height: 25vw;
+  grid-row-start: 103;
+  grid-column-start: 10;
+}
+.about_storm {
+  width: 23vw;
+  height: 16vw;
+  grid-row-start: 110;
+  grid-column-start: 3;
+}
+.tornado1 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 103;
+  grid-column-start: 8;
+}
+.thunder {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 108;
+  grid-column-start: 5;
+}
+.storm1 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 111;
+  grid-column-start: 10;
+  display: flex;
+  align-items: end;
+}
+.dust_storms {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 110;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container2 {
+  grid-row-start: 116;
+  grid-template-areas: ". . . . . . ";
+}

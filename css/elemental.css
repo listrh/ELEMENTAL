@@ -1,0 +1,381 @@
+#elemental_main {
+  display: grid;
+  grid-template-columns:
+    [one] 12vw [two] 5vw [three] 6vw
+    [four] 8vw [five] 10vw [six] 5vw
+    [seven] 5vw [eight] 5svw [nine] 8vw
+    [ten] 10vw [eleven] 5vw [twelve] 17vw;
+  grid-auto-rows: 3vw;
+}
+.spider {
+  grid: none;
+  position: fixed;
+  right: 5vw;
+  top: 17vw;
+}
+.Fire {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  grid-column-start: 3;
+  grid-row-start: 5;
+}
+.text_power {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  display: flex;
+  align-items: end;
+}
+.fiery_heart {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 7;
+}
+.crossroads {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 9;
+}
+.foto_redLava {
+  width: 32vw;
+  height: 18vw;
+  grid-row-start: 10;
+}
+.foto_redLava_mini {
+  width: 14vw;
+  height: 8vw;
+  grid-row-start: 13;
+  grid-column-start: 7;
+}
+.icon_umbrella {
+  grid-row-start: 14;
+  grid-column-start: 11;
+  transform-origin: 50% 0%;
+  transform: rotate(60deg);
+}
+.element_lava {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-row-start: 16;
+  display: flex;
+  align-items: end;
+}
+.element_lava2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 3;
+  grid-row-start: 17;
+}
+.icon_tornado {
+  grid-row-start: 18;
+  grid-column-start: 8;
+  width: 7vw;
+  height: 7vw;
+}
+.foto_waterSlide {
+  width: 16vw;
+  height: 9vw;
+  grid-column-start: 10;
+  grid-row-start: 18;
+}
+.foto_storm {
+  width: 27vw;
+  height: 18vw;
+  grid-row-start: 23;
+  grid-column-start: 3;
+}
+.element_water {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  grid-column-start: 9;
+  grid-row-start: 23;
+}
+.element_Give {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 10;
+  grid-column-end: 12;
+  grid-row-start: 25;
+}
+.water_balance {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 26;
+}
+.icon_drop {
+  width: 5vw;
+  height: 5vw;
+  grid-column-start: 12;
+  grid-row-start: 23;
+}
+.element_storm {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 3;
+  grid-row-start: 29;
+  display: flex;
+  align-items: center;
+}
+.element_pool {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 30;
+}
+.icon_cloud_rain {
+  grid-column-start: 2;
+  grid-row-start: 29;
+}
+.element_training {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 28;
+}
+.element_training2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 11;
+  grid-row-start: 29;
+}
+.icon_drops3 {
+  width: 7vw;
+  height: 7vw;
+  position: absolute;
+  right: 5vw;
+  top: 85vw;
+}
+.icon_sunny {
+  width: 7vw;
+  height: 7vw;
+  grid-row-start: 31;
+  grid-column-start: 7;
+}
+.element_earth {
+  width: 18vw;
+  height: 10vw;
+  grid-column-start: 9;
+  grid-row-start: 34;
+}
+.element_earth_text {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  grid-column-start: 3;
+  grid-row-start: 38;
+}
+.foto_big_storm {
+  width: 14vw;
+  height: 14vw;
+  grid-row-start: 36;
+}
+.element_choose {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 40;
+  display: flex;
+  align-items: end;
+}
+.element_choose2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 41;
+}
+.foto_swamp {
+  width: 33vw;
+  height: 21vw;
+  grid-row-start: 44;
+  grid-column-start: 2;
+}
+.element_Earthquake {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-row-start: 51;
+  display: flex;
+  align-items: end;
+}
+.element_classroom {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 5;
+  grid-row-start: 52;
+  display: flex;
+  align-items: start;
+}
+.element_disciplines {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 8;
+  grid-row-start: 47;
+}
+.element_disciplines2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 10;
+  grid-row-start: 45;
+}
+.icon_cloud_wind {
+  width: 14vw;
+  height: 14vw;
+  grid-row-start: 49;
+  grid-column-start: 9;
+}
+.icon_snow {
+  width: 14vw;
+  height: 14vw;
+  grid-row-start: 53;
+  grid-column-start: 11;
+}
+.element_wind {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  grid-column-start: 9;
+  grid-row-start: 60;
+}
+.Free_visit {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 61;
+  display: flex;
+  align-items: end;
+}
+.Free_visit2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 62;
+}
+.icon_cloud {
+  width: 10vw;
+  height: 10vw;
+  grid-row-start: 56;
+  grid-column-start: 5;
+}
+.element_tornado {
+  width: 17vw;
+  height: 10vw;
+  grid-row-start: 62;
+  grid-column-start: 2;
+}
+.Masters {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 5;
+  grid-row-start: 67;
+  display: flex;
+  align-items: end;
+}
+.Masters2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 68;
+}
+.feel_power {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 70;
+}
+.element_lightning {
+  width: 23vw;
+  height: 17vw;
+  grid-column-start: 9;
+  grid-row-start: 68;
+}
+.element_lightning2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 10;
+  grid-row-start: 74;
+}
+.text_lightning {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 9;
+  grid-row-start: 75;
+}
+.icon_light {
+  width: 12vw;
+  height: 12vw;
+  grid-column-start: 12;
+  grid-row-start: 68;
+}
+.icon_weather {
+  width: 7vw;
+  height: 7vw;
+  grid-column-start: 2;
+  grid-row-start: 72;
+}

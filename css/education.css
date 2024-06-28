@@ -1,0 +1,445 @@
+#education_main {
+  display: grid;
+  grid-template-columns:
+    [one] 12vw [two] 5vw [three] 6vw
+    [four] 8vw [five] 10vw [six] 5vw
+    [seven] 5vw [eight] 5svw [nine] 8vw
+    [ten] 10vw [eleven] 5vw [twelve] 17vw;
+  grid-auto-rows: 3vw;
+}
+.education_main_text {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 4vw;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 4;
+}
+.education_knowledge {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 7;
+}
+.education_practic {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 8;
+  grid-row-start: 6;
+  display: flex;
+  align-items: start;
+}
+.education_knowledge1 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-row-start: 8;
+  display: flex;
+  align-items: center;
+}
+.education_knowledge2 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-column-start: 5;
+  grid-row-start: 8;
+  display: flex;
+  align-items: center;
+}
+.education_works {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 7;
+  grid-column-start: 9;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.education_magic {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 8;
+  grid-column-start: 8;
+}
+.educational_work_stand {
+  width: 24vw;
+  height: 16vw;
+  grid-column-start: 7;
+  grid-row-start: 9;
+}
+.educational_work_stand:hover {
+  display: none;
+}
+.educational_work_stand_color {
+  width: 24vw;
+  height: 16vw;
+  grid-column-start: 7;
+  grid-row-start: 9;
+}
+.education_day {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 11;
+  grid-column-start: 2;
+  display: flex;
+  align-items: center;
+}
+.open_doors {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 12;
+  grid-column-start: 3;
+  grid-column-end: 8;
+}
+.open_doors_day {
+  color: #ce00ff;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 13;
+  grid-column-start: 3;
+}
+.education_poster {
+  width: 16vw;
+  height: 17vw;
+  grid-row-start: 15;
+  grid-column-start: 1;
+}
+.education_poster:hover {
+  display: none;
+}
+.education_poster_color {
+  width: 16vw;
+  height: 17vw;
+  grid-row-start: 15;
+  grid-column-start: 1;
+}
+.text_site {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 17;
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+.text_site_program {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 18;
+  grid-column-start: 5;
+  grid-column-end: 13;
+}
+.text_site_magistr {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 19;
+  grid-column-start: 5;
+  grid-column-end: 10;
+  display: flex;
+  align-items: end;
+}
+.education_under_foto {
+  color: #ce00ff;
+  font-size: 2.5vw;
+  font-family: "satoshi";
+  text-transform: uppercase;
+  grid-row-start: 15;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+.education_under_foto2 {
+  color: #ce00ff;
+  font-size: 2.5vw;
+  font-family: "satoshi";
+  text-transform: uppercase;
+  grid-row-start: 16;
+  grid-column-start: 10;
+  grid-column-end: 13;
+}
+.education_lessons {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 20;
+  grid-column-start: 4;
+  grid-column-end: 10;
+}
+.education_tasks {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 21;
+  grid-column-start: 4;
+  grid-column-end: 10;
+}
+.know_magic {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 23;
+  grid-column-start: 3;
+  grid-column-end: 10;
+}
+.date_competition {
+  color: #ce00ff;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 26;
+  grid-column-start: 3;
+}
+.education_competition {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 27;
+  grid-column-start: 3;
+}
+.education_brochures {
+  width: 35vw;
+  height: 22vw;
+  grid-column-start: 9;
+  grid-row-start: 21;
+}
+.education_brochures:hover {
+  display: none;
+}
+.education_brochures_color {
+  width: 35vw;
+  height: 22vw;
+  grid-column-start: 9;
+  grid-row-start: 21;
+}
+.education_books {
+  width: 36vw;
+  height: 22vw;
+  grid-column-start: 2;
+  grid-row-start: 29;
+}
+.education_books:hover {
+  display: none;
+}
+.education_books_color {
+  width: 36vw;
+  height: 22vw;
+  grid-column-start: 2;
+  grid-row-start: 29;
+}
+.education_more {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 29;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  display: flex;
+  align-items: end;
+}
+.education_events {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 30;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+.knowledge_day1 {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  grid-row-start: 35;
+  grid-column-start: 10;
+  grid-column-end: 13;
+  display: flex;
+  align-items: end;
+}
+.education_together {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 32;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+.education_together1 {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 37;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+.day_together {
+  color: #ce00ff;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 39;
+  grid-column-start: 10;
+}
+.amazing_element {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 37;
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+.manage_energy {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 40;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  display: flex;
+  align-items: center;
+}
+.everyday_life {
+  color: #909090;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  grid-row-start: 42;
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+.shopper_bag {
+  width: 24vw;
+  height: 31vw;
+  grid-row-start: 46;
+  grid-column-start: 3;
+}
+.shopper_replacement {
+  grid-row-start: 46;
+  grid-column-start: 3;
+  display: flex;
+  animation: rotateY1 10s linear infinite;
+  backface-visibility: hidden;
+}
+.T-shirt {
+  width: 24vw;
+  height: 31vw;
+  grid-row-start: 46;
+  grid-column-start: 3;
+  animation: rotateY2 10s linear infinite;
+  backface-visibility: hidden;
+}
+
+@keyframes rotateY1 {
+  0% {
+    transform: rotateY(-180deg);
+  }
+  40% {
+    transform: rotateY(-180deg);
+  }
+  50% {
+    transform: rotateY(0);
+  }
+  90% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes rotateY2 {
+  0% {
+    transform: rotateY(0);
+  }
+  40% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  90% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.Books_first {
+  width: 32vw;
+  height: 25vw;
+  grid-row-start: 48;
+  grid-column-start: 9;
+  animation: rotateY1 10s linear infinite;
+  backface-visibility: hidden;
+}
+.gift {
+  width: 32vw;
+  height: 25vw;
+  grid-row-start: 48;
+  grid-column-start: 9;
+  animation: rotateY2 10s linear infinite;
+  backface-visibility: hidden;
+}
+.buy {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  grid-row-start: 46;
+  grid-column-start: 11;
+}
+.merch_schools {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  grid-row-start: 47;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+.shopper_bag_text {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  grid-row-start: 57;
+  grid-column-start: 3;
+  grid-column-end: 8;
+}
+.Books_first_text {
+  color: #dbff00;
+  font-family: "satoshi";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  grid-row-start: 57;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
